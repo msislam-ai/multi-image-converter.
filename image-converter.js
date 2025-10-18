@@ -39,6 +39,7 @@ app.get("/", (req, res) => {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Multi-Image Converter</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
 html,body{width:100%;height:100%;font-family:'Poppins',sans-serif;background:#f3f4f6;}
@@ -68,6 +69,9 @@ button:hover{background:linear-gradient(90deg,#0056b3,#00a1d6);}
 <body>
 <div class="container">
 <h1>Multi-Image Converter</h1>
+<div class="ad-banner" style="width:100%; text-align:center; margin-bottom:15px;">
+  <script type='text/javascript' src='//pl27877410.effectivegatecpm.com/df/02/50/df0250cd75bd87e7a10a58801911273a.js'></script>
+</div>
 
 <label class="drag-drop-box" id="dragDropBox">
   <span id="dragDropText">Click or drag your images here</span>
