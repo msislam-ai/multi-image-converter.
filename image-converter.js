@@ -27,7 +27,7 @@ const Tesseract = require("tesseract.js");
 
 const app = express();
 const upload = multer({ dest: "uploads/" });
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.static("public"));
 
@@ -244,4 +244,4 @@ app.post("/convert-zip", upload.array("files"), async (req,res)=>{
   }catch(err){console.error(err); res.status(500).send("Conversion failed");}
 });
 
-app.listen(PORT, ()=>console.log(`✅ Multi-Image Converter running at http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`✅ Multi-Image Converter running on port ${PORT}`));
