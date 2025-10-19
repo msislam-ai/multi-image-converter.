@@ -4,7 +4,7 @@
   "description": "",
   "main": "image-converter.js",
   "scripts": {
-    "test": "node image-converter.js"
+    "start": "node image-converter.js"
   },
   "keywords": [],
   "author": "",
