@@ -43,7 +43,7 @@ app.get("/", (req, res) => {
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
 html,body{width:100%;height:100%;font-family:'Poppins',sans-serif;background:#f3f4f6;}
-.container{display:flex;flex-direction:column;width:100%;height:100%;padding:20px;overflow:auto;}
+.container{display:flex;flex-direction:column;width:100%;padding:20px;overflow:auto;}
 h1{font-size:2rem;color:#2d3436;margin-bottom:20px;text-align:center;}
 .drag-drop-box{width:100%;border:3px dashed #a0a0a0;border-radius:16px;background:#fafafa;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:50px;cursor:pointer;transition:0.2s;min-height:300px;margin-bottom:20px;}
 .drag-drop-box.dragover{background:#eaf4ff;border-color:#007bff;}
